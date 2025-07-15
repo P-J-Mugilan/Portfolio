@@ -5,9 +5,8 @@
 3. Banner
 4. About
 5. Services
-6. Portfolio
-7. Contact
-8. Footer 
+6. Contact
+7. Footer 
 -------------------- */
 
 /* 1. General */
@@ -232,19 +231,7 @@ button{
 }
 
 
-/* 3. Banner */
 
-/* .banner_wrapper{
-    width:100%;
-    height:auto;
-    min-height:650px;
-    background-image: url('../images/bg-image.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding:200px 0 100px 0;
-} */
 
 .parallax-container {
     position: relative;
@@ -374,43 +361,8 @@ svg#freepik_stories-programming.animated #freepik--speech-bubble--inject-34 {ani
 }
 
 
-/* 6. Portfolio */
-.portfolio_wrapper h2{
-    color: var(--text-light-blue);
-}
-.portfolio_wrapper p{
-    color: var(--secondary-color);
-}
-.portfolio_wrapper .card{
-    width: 100%;
-    height:calc(auto);
-  
-    overflow: hidden;
-    
-    cursor:pointer;
 
-    /* box-shadow: 0 0 25px 4px var(--text-light-blue); */
-    -webkit-box-shadow: 1px 1px 17px -4px rgba(126,150,244,0.95);
-    -moz-box-shadow: 1px 1px 17px -4px rgba(126,150,244,0.95);
-    box-shadow: 1px 1px 17px -4px rgba(126,150,244,0.95);
-}
-
-.portfolio_wrapper .card img{
-    transition: background-position 4s ease-in-out 0s;
-    width:100%;
-    height:auto;
-    object-fit: fill;
-    background-position: relative ;
-    background-size:contain;
-    background-repeat: no-repeat;    
-}
-
-.portfolio_wrapper .card:hover img{
-    background-position: bottom center;
-
-}
-
-/* 7. Contact */
+/* 6. Contact */
 
 .contact_wrapper{
     background-color: var(--bg-white);
@@ -445,7 +397,7 @@ svg#freepik_stories-programming.animated #freepik--speech-bubble--inject-34 {ani
     color:var(--text-light-blue);
 }
 
-/* 8 Footer */
+/* 7 Footer */
 .footer_wrapper{
     background-color:#0e2431;
     padding:20px 0;
